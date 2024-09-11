@@ -16,9 +16,9 @@ import ScenarioPlanning from './ScenarioPlanning.jsx';
 import ReportsExports from './ReportsExports.jsx';
 import DataVisualizations from './component/DataVisualizations.jsx';
 //import WaterManagementDashboard from './WaterManagementDashboard.jsx';
-
+import PieChart from './component/piechart.jsx';
 // Define placeholder components for other pages
-const Home = () => <div>Home Page</div>;
+const Home = () => <div>Home Page </div>;
 const WaterForecast = () => <div>Water Forecast Page</div>;
 const ReservoirStatus = () => <div>Reservoir Status Page</div>;
 
