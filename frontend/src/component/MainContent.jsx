@@ -1,5 +1,5 @@
 import React from 'react';
-import ScenarioSection from './ScenarioSection';
+import ScenarioSection from './Scenario_text_section';
 
 const MainContent = () => (
   <main className="mt-10 max-md:max-w-full">

@@ -3,19 +3,21 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import 'primereact/resources/themes/saga-blue/theme.css';  
+import 'primereact/resources/primereact.min.css';          
+import 'primeicons/primeicons.css';                        
 
-import FilterDropdown from './component/FilterDropdown.jsx'
-import FilterSection from './component/FilterSection.jsx'
 
 import Header from './component/Header.jsx';
 import RiskAssessment from './RiskAssessmentMain.jsx';
 import ScenarioPlanning from './ScenarioPlanning.jsx';
 import ReportsExports from './ReportsExports.jsx';
-import DataVisualizations from './component/DataVisualizations.jsx';
-import PieChart from './component/piechart.jsx';
+import ReservoirStatus from './ReservoirStatus.jsx'
+import WaterForecast from './WaterForecast.jsx'
+
 const Home = () => <div>Home Page </div>;
-const WaterForecast = () => <div>Water Forecast Page</div>;
-const ReservoirStatus = () => <div>Reservoir Status Page</div>;
+
+
 
 const root = createRoot(document.getElementById('root'));
 

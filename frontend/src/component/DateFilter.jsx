@@ -1,17 +1,36 @@
-import React from 'react';
+import React, { useState } from "react";
+import { Dropdown } from 'primereact/dropdown';
+
 
 function DateFilter() {
+  const [selectedItem1, setSelectedItem1] = useState(null);
+
+
+  const items = Array.from({ length: 100000 }).map((_, i) => ({ label: `Item #${i}`, value: i }));
+
   return (
-    <div className="flex gap-3.5 text-3xl tracking-tighter leading-none text-blue-500">
-      <div className="flex gap-2 items-start px-9 pt-3.5 pb-1.5 bg-violet-50 rounded-[40px] max-md:px-5">
-        <div>April</div>
-        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b5048618545c125c45aecd46dc70cbb49ce148207ece0dfcd69aacc33d7041c?placeholderIfAbsent=true&apiKey=5e3805d6b94248fdab855530b81db859" alt="" className="object-contain shrink-0 aspect-[0.94] w-[31px]" />
+    <section className="flex flex-wrap gap-10 justify-between items-center mt-4 w-min text-2xl tracking-tight leading-none text-black whitespace-nowrap max-w-[1382px]">
+      <div className="card flex justify-content-center">
+        <div className="flex flex-row gap-[100px]">
+        <Dropdown
+          value={selectedItem1}
+          onChange={(e) => setSelectedItem1(e.value)}
+          options={items}
+          virtualScrollerOptions={{ itemSize: 58 }}
+          placeholder="Month"
+          className="w-full md:w-40 h-12  border-black border-2 px-5 py-2"
+        />
+          <Dropdown
+          value={selectedItem1}
+          onChange={(e) => setSelectedItem1(e.value)}
+          options={items}
+          virtualScrollerOptions={{ itemSize: 58 }}
+          placeholder="Year"
+          className="w-full md:w-40 h-12  border-black border-2 px-5 py-2"
+        />
+        </div>
       </div>
-      <div className="flex gap-2.5 px-9 py-2.5 bg-violet-50 rounded-[40px] max-md:px-5">
-        <div className="grow my-auto">2021</div>
-        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b5048618545c125c45aecd46dc70cbb49ce148207ece0dfcd69aacc33d7041c?placeholderIfAbsent=true&apiKey=5e3805d6b94248fdab855530b81db859" alt="" className="object-contain shrink-0 aspect-[0.94] w-[31px]" />
-      </div>
-    </div>
+    </section>
   );
 }
 

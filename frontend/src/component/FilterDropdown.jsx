@@ -1,15 +1,51 @@
-import React from 'react';
+import React, { useState } from "react";
+import { Dropdown } from 'primereact/dropdown';
 
-const FilterDropdown = ({ label }) => {
+
+const FilterDropdown = () => {
+  const [selectedItem1, setSelectedItem1] = useState(null);
+  const [selectedItem2, setSelectedItem2] = useState(null);
+  const [selectedItem3, setSelectedItem3] = useState(null);
+  const [selectedItem4, setSelectedItem4] = useState(null);
+
+  const items = Array.from({ length: 100000 }).map((_, i) => ({ label: `Item #${i}`, value: i }));
   return (
-    <div className="flex flex-col self-stretch my-auto min-w-[240px] rounded-[40px] w-[274px]">
-      <div className="flex flex-col justify-center px-7 py-3.5 w-full bg-violet-50 rounded-[40px] max-md:px-5">
-        <div className="flex gap-10 justify-between items-center w-full">
-          <div className="self-stretch my-auto">{label}</div>
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bf8d63bd77be98f1a1be0a22baa6d12873224d08c06522298d5eac1d08eea76b?placeholderIfAbsent=true&apiKey=5e3805d6b94248fdab855530b81db859" className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" alt="" />
-        </div>
-      </div>
-    </div>
+    <section className="flex flex-wrap gap-5 justify-between mt-9 w-full whitespace-nowrap max-w-[1358px] max-md:max-w-full">
+
+        <Dropdown
+          value={selectedItem1}
+          onChange={(e) => setSelectedItem1(e.value)}
+          options={items}
+          virtualScrollerOptions={{ itemSize: 58 }}
+          placeholder="State"
+          className="w-full md:w-40 h-12  border-black border-2 px-5 py-2"
+        />
+        <Dropdown
+          value={selectedItem2}
+          onChange={(e) => setSelectedItem2(e.value)}
+          options={items}
+          virtualScrollerOptions={{ itemSize: 58 }}
+          placeholder="City"
+          className="w-full md:w-40 h-12  border-black border-2 px-5 py-2"
+        />
+        <Dropdown
+          value={selectedItem3}
+          onChange={(e) => setSelectedItem3(e.value)}
+          options={items}
+          virtualScrollerOptions={{ itemSize: 58 }}
+          placeholder="District"
+          className="w-full md:w-40 h-12  border-black border-2 px-5 py-2"
+        />
+        <Dropdown
+          value={selectedItem4}
+          onChange={(e) => setSelectedItem4(e.value)}
+          options={items}
+          virtualScrollerOptions={{ itemSize: 58 }}
+          placeholder="Reservoir"
+          className="w-full md:w-40 h-12  border-black border-2 px-5 py-2 "
+        />
+
+      </section>
   );
 };
 
