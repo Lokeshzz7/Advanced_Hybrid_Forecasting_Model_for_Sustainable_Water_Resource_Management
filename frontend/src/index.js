@@ -6,18 +6,13 @@ import reportWebVitals from './reportWebVitals';
 
 import FilterDropdown from './component/FilterDropdown.jsx'
 import FilterSection from './component/FilterSection.jsx'
-import WaterUsageChart from './component/WaterUsageChart.jsx';
-import WaterUsageBreakdown from './component/WaterUsageBreakdown';
-import WaterUsageSection from './component/WaterUsageSection.jsx';
+
 import Header from './component/Header.jsx';
-import Layout from './component/Layout.jsx';
-import RiskAssessment from './WaterManagementDashboard.jsx';
+import RiskAssessment from './RiskAssessmentMain.jsx';
 import ScenarioPlanning from './ScenarioPlanning.jsx';
 import ReportsExports from './ReportsExports.jsx';
 import DataVisualizations from './component/DataVisualizations.jsx';
-//import WaterManagementDashboard from './WaterManagementDashboard.jsx';
 import PieChart from './component/piechart.jsx';
-// Define placeholder components for other pages
 const Home = () => <div>Home Page </div>;
 const WaterForecast = () => <div>Water Forecast Page</div>;
 const ReservoirStatus = () => <div>Reservoir Status Page</div>;
