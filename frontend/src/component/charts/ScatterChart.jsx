@@ -4,10 +4,14 @@ import * as echarts from 'echarts';
 const ScatterChart = () => {
   useEffect(() => {
     // Initialize chart
-    const chartDom = document.getElementById('main');
-    const myChart = echarts.init(chartDom);
+    
 
-    const femaleData = [[161.2, 51.6], [167.5, 59.0], [159.5, 49.2], [157.0, 63.0], [155.8, 53.6],
+var chartDom = document.getElementById('main');
+var myChart = echarts.init(chartDom);
+var option;
+
+// prettier-ignore
+const InflowData = [[161.2, 51.6], [167.5, 59.0], [159.5, 49.2], [157.0, 63.0], [155.8, 53.6],
     [170.0, 59.0], [159.1, 47.6], [166.0, 69.8], [176.2, 66.8], [160.2, 75.2],
     [172.5, 55.2], [170.9, 54.2], [172.9, 62.5], [153.4, 42.0], [160.0, 50.0],
     [147.2, 49.8], [168.2, 49.2], [175.0, 73.2], [157.0, 47.8], [167.6, 68.8],
@@ -60,8 +64,8 @@ const ScatterChart = () => {
     [169.5, 67.3], [160.0, 75.5], [172.7, 68.2], [162.6, 61.4], [157.5, 76.8],
     [176.5, 71.8], [164.4, 55.5], [160.7, 48.6], [174.0, 66.4], [163.8, 67.3]
 ];
-
-    const maleData = [[174.0, 65.6], [175.3, 71.8], [193.5, 80.7], [186.5, 72.6], [187.2, 78.8],
+// prettier-ignore
+const OutflowDeta = [[174.0, 65.6], [175.3, 71.8], [193.5, 80.7], [186.5, 72.6], [187.2, 78.8],
     [181.5, 74.8], [184.0, 86.4], [184.5, 78.4], [175.0, 62.0], [184.0, 81.6],
     [180.0, 76.6], [177.8, 83.6], [192.0, 90.0], [176.0, 74.6], [174.0, 71.0],
     [184.0, 79.6], [192.7, 93.8], [171.5, 70.0], [173.0, 72.4], [176.0, 85.9],
@@ -112,54 +116,85 @@ const ScatterChart = () => {
     [170.2, 62.3], [177.8, 82.7], [179.1, 79.1], [190.5, 98.2], [177.8, 84.1],
     [180.3, 83.2], [180.3, 83.2]
 ];
-
-    // Chart option
-    const option = {
-      title: {
-        text: 'Height and Weight Distribution',
+function calculateAverage(data, dim) {
+  let total = 0;
+  for (var i = 0; i < data.length; i++) {
+    total += data[i][dim];
+  }
+  return (total /= data.length);
+}
+const scatterOption = (option = {
+  xAxis: {
+    scale: true
+  },
+  yAxis: {
+    scale: true
+  },
+  series: [
+    {
+      type: 'scatter',
+      id: 'Inflow',
+      dataGroupId: 'Inflow',
+      universalTransition: {
+        enabled: true,
+        delay: function (idx, count) {
+          return Math.random() * 400;
+        }
       },
-      xAxis: {
-        type: 'value',
-        name: 'Height (cm)',
+      data: InflowData
+    },
+    {
+      type: 'scatter',
+      id: 'Outflow',
+      dataGroupId: 'Outflow',
+      universalTransition: {
+        enabled: true,
+        delay: function (idx, count) {
+          return Math.random() * 400;
+        }
       },
-      yAxis: {
-        type: 'value',
-        name: 'Weight (kg)',
-      },
-      series: [
+      data: OutflowDeta
+    }
+  ]
+});
+const barOption = {
+  xAxis: {
+    type: 'category',
+    data: ['Inflow', 'Outflow']
+  },
+  yAxis: {},
+  series: [
+    {
+      type: 'bar',
+      id: 'total',
+      data: [
         {
-          name: 'Inflow',
-          data: femaleData,
-          type: 'scatter',
-          symbolSize: function (data) {
-            return Math.sqrt(data[1]) * 2; // Adjust symbol size by weight
-          },
-          itemStyle: {
-            color: 'rgb(255, 118, 118)', // Customize female point color
-          },
+          value: calculateAverage(OutflowDeta, 0),
+          groupId: 'Outflow'
         },
         {
-          name: 'Outflow',
-          data: maleData,
-          type: 'scatter',
-          symbolSize: function (data) {
-            return Math.sqrt(data[1]) * 2;
-          },
-          itemStyle: {
-            color: 'rgb(118, 157, 255)', // Customize male point color
-          },
-        },
+          value: calculateAverage(InflowData, 0),
+          groupId: 'Inflow'
+        }
       ],
-      tooltip: {
-        trigger: 'item',
-        formatter: function (params) {
-          return `${params.seriesName}<br/>Height: ${params.data[0]}cm<br/>Weight: ${params.data[1]}kg`;
-        },
-      },
-    };
+      universalTransition: {
+        enabled: true,
+        seriesKey: ['Inflow', 'Outflow'],
+        delay: function (idx, count) {
+          return Math.random() * 400;
+        }
+      }
+    }
+  ]
+};
+let currentOption = scatterOption;
+setInterval(function () {
+  currentOption = currentOption === scatterOption ? barOption : scatterOption;
+  myChart.setOption(currentOption, true);
+}, 5000);
 
-    // Render chart
-    myChart.setOption(option);
+myChart.setOption(option);
+
 
     // Cleanup on unmount
     return () => {

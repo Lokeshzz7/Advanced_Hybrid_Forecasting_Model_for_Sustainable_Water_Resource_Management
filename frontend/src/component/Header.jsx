@@ -12,7 +12,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="flex overflow-hidden flex-wrap gap-10 px-20 py-7 mr-3 max-w-screen text-xl text-center text-black bg-white rounded-3xl shadow-[0px_-8px_26px_rgba(0,122,255,0.46)] max-md:px-5 max-md:mr-2.5 mx-10 my-10">
+    <header className="flex overflow-hidden flex-wrap gap-10 px-20 pt-7 pb-3 mr-3 max-w-screen text-xl text-center text-black bg-white rounded-3xl shadow-[0px_-8px_26px_rgba(0,122,255,0.46)] max-md:px-5 max-md:mr-2.5 mx-10 mt-8">
       <div className="grow my-auto">WELCOME !</div>
       <nav className="flex flex-wrap gap-7 justify-between items-center">
         {menuItems.map((item, index) => (
