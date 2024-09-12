@@ -22,14 +22,14 @@ const ReservoirMainContent = () => {
                                 />
                             </div>
                             <div className="flex flex-col ml-5 w-[45%] max-md:ml-0 max-md:w-full">
-                                <ChartCard
-                                    title="Inflow and outflow"
-                                    chartImage="https://cdn.builder.io/api/v1/image/assets/TEMP/83f2e380c8eff90f4bd40ac2cceac04190adc3609aa87d1afc75633190f6a45c?placeholderIfAbsent=true&apiKey=5e3805d6b94248fdab855530b81db859"
-                                    legend={[
-                                        { label: 'inflow', color: 'bg-indigo-600', value: '63%' },
-                                        { label: 'outflow', color: 'bg-sky-300', value: '25%' }
-                                    ]}
-                                />
+                            <ChartCard
+                                        title="Critical Score"
+                                        chartImage="https://cdn.builder.io/api/v1/image/assets/TEMP/d9c9ac8fbc7da19e09f6732e75ab9d6dd9d9d053f5cfd5cdbf357a8e72873f8d?placeholderIfAbsent=true&apiKey=5e3805d6b94248fdab855530b81db859"
+                                        legend={[
+                                            { label: 'water', color: 'bg-indigo-600', value: '63%' },
+                                            { label: 'used', color: 'bg-sky-300', value: '25%' }
+                                        ]}
+                                    />
                             </div>
                         </div>
                     </div>
@@ -48,14 +48,14 @@ const ReservoirMainContent = () => {
                                 />
                             </div>
                             <div className="flex flex-col ml-5 w-[45%] max-md:ml-0 max-md:w-full">
-                                <ChartCard
-                                    title="Highlights"
-                                    chartImage="https://cdn.builder.io/api/v1/image/assets/TEMP/a5d15f752bd0cec642f6a55ae29f421381cf64271ed247fb33a699447d78ae54?placeholderIfAbsent=true&apiKey=5e3805d6b94248fdab855530b81db859"
-                                    legend={[
-                                        { label: 'water', color: 'bg-indigo-600', value: '63%' },
-                                        { label: 'used', color: 'bg-sky-300', value: '25%' }
-                                    ]}
-                                />
+                            <ChartCard
+                                        title="Critical Score"
+                                        chartImage="https://cdn.builder.io/api/v1/image/assets/TEMP/d9c9ac8fbc7da19e09f6732e75ab9d6dd9d9d053f5cfd5cdbf357a8e72873f8d?placeholderIfAbsent=true&apiKey=5e3805d6b94248fdab855530b81db859"
+                                        legend={[
+                                            { label: 'water', color: 'bg-indigo-600', value: '63%' },
+                                            { label: 'used', color: 'bg-sky-300', value: '25%' }
+                                        ]}
+                                    />
                             </div>
                         </div>
                     </div>
@@ -69,23 +69,13 @@ const ReservoirMainContent = () => {
                     <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                         <div className="grow max-md:mt-10 max-md:max-w-full">
                             <div className="flex gap-5 max-md:flex-col">
-                                <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+                                <div className="flex flex-col w-full max-md:ml-0 max-md:w-full">
                                     <ChartCard
                                         title="Usage Efficiency"
                                         chartImage="https://cdn.builder.io/api/v1/image/assets/TEMP/df4c1a79bb817135030499d89ed4bf9ab5515918fe572a79ce7b78ce3572f546?placeholderIfAbsent=true&apiKey=5e3805d6b94248fdab855530b81db859"
                                         legend={[
                                             { label: 'Inflow', color: 'bg-indigo-600', value: '63%' },
                                             { label: 'Outflow', color: 'bg-sky-300', value: '25%' }
-                                        ]}
-                                    />
-                                </div>
-                                <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-                                    <ChartCard
-                                        title="Critical Score"
-                                        chartImage="https://cdn.builder.io/api/v1/image/assets/TEMP/d9c9ac8fbc7da19e09f6732e75ab9d6dd9d9d053f5cfd5cdbf357a8e72873f8d?placeholderIfAbsent=true&apiKey=5e3805d6b94248fdab855530b81db859"
-                                        legend={[
-                                            { label: 'water', color: 'bg-indigo-600', value: '63%' },
-                                            { label: 'used', color: 'bg-sky-300', value: '25%' }
                                         ]}
                                     />
                                 </div>
