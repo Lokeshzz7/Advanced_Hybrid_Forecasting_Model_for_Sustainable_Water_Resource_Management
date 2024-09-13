@@ -11,3 +11,4 @@ urlpatterns = [
     path('reservoirs/month',get_months,name='get_months'),
     path('reservoirs/year',get_years,name='get_years'),
 ]
+
