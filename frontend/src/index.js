@@ -14,8 +14,7 @@ import ScenarioPlanning from './ScenarioPlanning.jsx';
 import ReportsExports from './ReportsExports.jsx';
 import ReservoirStatus from './ReservoirStatus.jsx'
 import WaterForecast from './WaterForecast.jsx'
-
-const Home = () => <div>Home Page </div>;
+import Home from './Home.jsx';
 
 
 

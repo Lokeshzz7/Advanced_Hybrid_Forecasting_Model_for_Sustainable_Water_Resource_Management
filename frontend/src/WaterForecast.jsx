@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PrecipitationChart from './component/charts/PrecipitationChart';
 import WaterUsageCard from './component/WaterUsageCard';
 import WaterUsageChart from './component/WaterUsageChart';
 import Selection_Dropdown from './component/Selection_Dropdown';
