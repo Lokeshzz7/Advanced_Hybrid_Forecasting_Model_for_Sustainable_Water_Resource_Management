@@ -4,7 +4,6 @@ from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from .models import  Reservoir
 from .serializers import  ReservoirSerializer
-import pandas as pd
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from .forms import CsvImportForm
@@ -51,12 +50,27 @@ def get_months(request):
 
 @api_view(['GET'])
 def get_years(request):
+    print("API ------")
     try:
         years = Reservoir.objects.values('year').distinct()
         return Response(years,status=200)
     except years.none:
         return Response({"error":"Not Available"},status=400)
-        
+
+@api_view(['GET'])
+def get_basins(request):
+    print("Api Called")
+    try:
+        basins = Reservoir.objects.values_list('basin', flat=True).distinct()
+        basins_list = list(basins)
+        if not basins_list:
+            return Response({"error": "No basins found"}, status=404)
+        return Response({'basins': basins_list}, status=200)
+    except Exception as e:
+        print(f"Exception occurred: {e}")
+        return Response({"error": "Error retrieving basins"}, status=500)
+
+
 def import_csv_view(request):
     if request.method == 'POST':
         form = CsvImportForm(request.POST, request.FILES)
