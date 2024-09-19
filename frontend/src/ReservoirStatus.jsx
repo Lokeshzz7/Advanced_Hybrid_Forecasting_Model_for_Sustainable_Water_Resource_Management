@@ -7,8 +7,9 @@ const ReservoirStatus = () => {
     <div className="flex overflow-hidden flex-col px-9 py-9 bg-white max-md:px-5">
 
       <Selection_Dropdown />
-
+      <div className="mt-[50px] ">
       <ReservoirMainContent />
+      </div>
     </div>
   );
 };

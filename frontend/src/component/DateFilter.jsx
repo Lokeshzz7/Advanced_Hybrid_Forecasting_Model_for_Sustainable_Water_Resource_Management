@@ -38,7 +38,7 @@ function DateFilter() {
             options={months}
             virtualScrollerOptions={{ itemSize: 58 }}
             placeholder="Month"
-            className="w-full md:w-40 h-12 border-black border-2 px-5 py-2"
+            className="w-full md:w-40 h-12 border-black border-2 px-5 py-2 rounded-2xl"
           />
           {/* Year */}
           <Dropdown
@@ -47,7 +47,7 @@ function DateFilter() {
             options={years}
             virtualScrollerOptions={{ itemSize: 58 }}
             placeholder="Year"
-            className="w-full md:w-40 h-12 border-black border-2 px-5 py-2"
+            className="w-full md:w-40 h-12 border-black border-2 px-5 py-2 rounded-2xl"
           />
         </div>
       </div>

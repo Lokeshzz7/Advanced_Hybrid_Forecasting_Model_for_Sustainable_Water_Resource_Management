@@ -33,7 +33,7 @@ const FilterDropdown = () => {
         options={items}
         virtualScrollerOptions={{ itemSize: 58 }}
         placeholder="State"
-        className="w-full md:w-40 h-12 border-black border-2 px-5 py-2"
+        className="w-full md:w-40 h-12 border-black border-2 px-5 py-2 rounded-2xl"
       />
       <Dropdown
         value={selectedItem2}
@@ -41,7 +41,7 @@ const FilterDropdown = () => {
         options={items}
         virtualScrollerOptions={{ itemSize: 58 }}
         placeholder="City"
-        className="w-full md:w-40 h-12 border-black border-2 px-5 py-2"
+        className="w-full md:w-40 h-12 border-black border-2 px-5 py-2 rounded-2xl"
       />
       <Dropdown
         value={selectedItem3}
@@ -49,7 +49,7 @@ const FilterDropdown = () => {
         options={items}
         virtualScrollerOptions={{ itemSize: 58 }}
         placeholder="District"
-        className="w-full md:w-40 h-12 border-black border-2 px-5 py-2"
+        className="w-full md:w-40 h-12 border-black border-2 px-5 py-2 rounded-2xl"
       /> 
       <Dropdown
         value={selectedReservoir}
@@ -57,7 +57,7 @@ const FilterDropdown = () => {
         options={reservoir}
         virtualScrollerOptions={{ itemSize: 58 }}
         placeholder="Reservoir"
-        className="w-full md:w-40 h-12 border-black border-2 px-5 py-2"
+        className="w-full md:w-40 h-12 border-black border-2 px-5 py-2 rounded-2xl"
       />
     </section>
   );
