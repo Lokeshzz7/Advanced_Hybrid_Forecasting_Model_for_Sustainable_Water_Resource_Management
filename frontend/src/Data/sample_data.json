@@ -1,0 +1,12 @@
+[
+    { "year": 2023, "state": "Andhra Pradesh", "category": "Current Extraction", "purpose": "Irrigation", "value": 6.44, "unit": "Billion Cubic Meters" },
+    { "year": 2004, "state": "Arunachal Pradesh", "category": "Current Extraction", "purpose": "Irrigation", "value": 0.01, "unit": "Billion Cubic Meters" },
+    { "year": 2023, "state": "Assam", "category": "Current Extraction", "purpose": "Industrial", "value": 2.06, "unit": "Billion Cubic Meters" },
+    { "year": 2004, "state": "Bihar", "category": "Current Extraction", "purpose": "Industrial", "value": 10.13, "unit": "Billion Cubic Meters" },
+    { "year": 2009, "state": "Chhattisgarh", "category": "Current Extraction", "purpose": "Industrial", "value": 4.87, "unit": "Billion Cubic Meters" },
+    { "year": 2004, "state": "Delhi", "category": "Current Extraction", "purpose": "Irrigation", "value": 0.08, "unit": "Billion Cubic Meters" },
+    { "year": 2023, "state": "Goa", "category": "Current Extraction", "purpose": "Irrigation", "value": 0.025, "unit": "Billion Cubic Meters" },
+    { "year": 2009, "state": "Gujarat", "category": "Current Extraction", "purpose": "Domestic", "value": 12.13, "unit": "Billion Cubic Meters" },
+    { "year": 2009, "state": "Haryana", "category": "Current Extraction", "purpose": "Domestic", "value": 10.55, "unit": "Billion Cubic Meters" },
+    { "year": 2023, "state": "Himachal Pradesh", "category": "Current Extraction", "purpose": "Domestic", "value": 0.18, "unit": "Billion Cubic Meters" }
+  ]

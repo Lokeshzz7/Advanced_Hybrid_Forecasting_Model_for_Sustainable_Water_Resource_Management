@@ -11,7 +11,6 @@ function Selection_Dropdown() {
                 <FilterDropdown />
             </section>
 
-            <DateFilter />
         </div>
     );
 }
