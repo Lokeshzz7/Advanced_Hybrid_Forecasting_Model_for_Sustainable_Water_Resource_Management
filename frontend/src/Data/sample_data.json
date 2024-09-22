@@ -1,12 +1,2306 @@
 [
-    { "year": 2023, "state": "Andhra Pradesh", "category": "Current Extraction", "purpose": "Irrigation", "value": 6.44, "unit": "Billion Cubic Meters" },
-    { "year": 2004, "state": "Arunachal Pradesh", "category": "Current Extraction", "purpose": "Irrigation", "value": 0.01, "unit": "Billion Cubic Meters" },
-    { "year": 2023, "state": "Assam", "category": "Current Extraction", "purpose": "Industrial", "value": 2.06, "unit": "Billion Cubic Meters" },
-    { "year": 2004, "state": "Bihar", "category": "Current Extraction", "purpose": "Industrial", "value": 10.13, "unit": "Billion Cubic Meters" },
-    { "year": 2009, "state": "Chhattisgarh", "category": "Current Extraction", "purpose": "Industrial", "value": 4.87, "unit": "Billion Cubic Meters" },
-    { "year": 2004, "state": "Delhi", "category": "Current Extraction", "purpose": "Irrigation", "value": 0.08, "unit": "Billion Cubic Meters" },
-    { "year": 2023, "state": "Goa", "category": "Current Extraction", "purpose": "Irrigation", "value": 0.025, "unit": "Billion Cubic Meters" },
-    { "year": 2009, "state": "Gujarat", "category": "Current Extraction", "purpose": "Domestic", "value": 12.13, "unit": "Billion Cubic Meters" },
-    { "year": 2009, "state": "Haryana", "category": "Current Extraction", "purpose": "Domestic", "value": 10.55, "unit": "Billion Cubic Meters" },
-    { "year": 2023, "state": "Himachal Pradesh", "category": "Current Extraction", "purpose": "Domestic", "value": 0.18, "unit": "Billion Cubic Meters" }
-  ]
+  {
+    "year": 2004,
+    "state": "Andaman and Nicobar Islands",
+    "Domestic": 0.005,
+    "Industrial": 0.005,
+    "Irrigation": 0.0,
+    "Total": 0.01
+  },
+  {
+    "year": 2004,
+    "state": "Andhra Pradesh",
+    "Domestic": 0.51,
+    "Industrial": 0.51,
+    "Irrigation": 13.88,
+    "Total": 14.9
+  },
+  {
+    "year": 2004,
+    "state": "Arunachal Pradesh",
+    "Domestic": 0.0,
+    "Industrial": 0.0,
+    "Irrigation": 0.0008,
+    "Total": 0.0008
+  },
+  {
+    "year": 2004,
+    "state": "Assam",
+    "Domestic": 0.295,
+    "Industrial": 0.295,
+    "Irrigation": 4.85,
+    "Total": 5.44
+  },
+  {
+    "year": 2004,
+    "state": "Bihar",
+    "Domestic": 0.685,
+    "Industrial": 0.685,
+    "Irrigation": 9.39,
+    "Total": 10.76
+  },
+  {
+    "year": 2004,
+    "state": "Chandigarh",
+    "Domestic": 0.0,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.0
+  },
+  {
+    "year": 2004,
+    "state": "Chhattisgarh",
+    "Domestic": 0.24,
+    "Industrial": 0.24,
+    "Irrigation": 2.31,
+    "Total": 2.79
+  },
+  {
+    "year": 2004,
+    "state": "Dadra and Nagar Haveli",
+    "Domestic": 0.0035,
+    "Industrial": 0.0035,
+    "Irrigation": 0.001,
+    "Total": 0.008
+  },
+  {
+    "year": 2004,
+    "state": "Daman and Diu",
+    "Domestic": 0.001,
+    "Industrial": 0.001,
+    "Irrigation": 0.007,
+    "Total": 0.009
+  },
+  {
+    "year": 2004,
+    "state": "Delhi",
+    "Domestic": 0.14,
+    "Industrial": 0.14,
+    "Irrigation": 0.2,
+    "Total": 0.48
+  },
+  {
+    "year": 2004,
+    "state": "Goa",
+    "Domestic": 0.015,
+    "Industrial": 0.015,
+    "Irrigation": 0.04,
+    "Total": 0.07
+  },
+  {
+    "year": 2004,
+    "state": "Gujarat",
+    "Domestic": 0.495,
+    "Industrial": 0.495,
+    "Irrigation": 10.49,
+    "Total": 11.48
+  },
+  {
+    "year": 2004,
+    "state": "Haryana",
+    "Domestic": 0.175,
+    "Industrial": 0.175,
+    "Irrigation": 9.1,
+    "Total": 9.45
+  },
+  {
+    "year": 2004,
+    "state": "Himachal Pradesh",
+    "Domestic": 0.01,
+    "Industrial": 0.01,
+    "Irrigation": 0.09,
+    "Total": 0.11
+  },
+  {
+    "year": 2004,
+    "state": "Jammu and Kashmir",
+    "Domestic": 0.12,
+    "Industrial": 0.12,
+    "Irrigation": 0.1,
+    "Total": 0.34
+  },
+  {
+    "year": 2004,
+    "state": "Jharkhand",
+    "Domestic": 0.19,
+    "Industrial": 0.19,
+    "Irrigation": 0.7,
+    "Total": 1.08
+  },
+  {
+    "year": 2004,
+    "state": "Karnataka",
+    "Domestic": 0.485,
+    "Industrial": 0.485,
+    "Irrigation": 9.75,
+    "Total": 10.72
+  },
+  {
+    "year": 2004,
+    "state": "Kerala",
+    "Domestic": 0.55,
+    "Industrial": 0.55,
+    "Irrigation": 1.82,
+    "Total": 2.92
+  },
+  {
+    "year": 2004,
+    "state": "Lakshadweep",
+    "Domestic": 0.001,
+    "Industrial": 0.001,
+    "Irrigation": 0.0,
+    "Total": 0.002
+  },
+  {
+    "year": 2004,
+    "state": "Madhya Pradesh",
+    "Domestic": 0.52,
+    "Industrial": 0.52,
+    "Irrigation": 16.08,
+    "Total": 17.12
+  },
+  {
+    "year": 2004,
+    "state": "Maharashtra",
+    "Domestic": 0.425,
+    "Industrial": 0.425,
+    "Irrigation": 14.24,
+    "Total": 15.09
+  },
+  {
+    "year": 2004,
+    "state": "Manipur",
+    "Domestic": 0.00025,
+    "Industrial": 0.00025,
+    "Irrigation": 0.002,
+    "Total": 0.0025
+  },
+  {
+    "year": 2004,
+    "state": "Meghalaya",
+    "Domestic": 0.001,
+    "Industrial": 0.001,
+    "Irrigation": 0.0,
+    "Total": 0.002
+  },
+  {
+    "year": 2004,
+    "state": "Mizoram",
+    "Domestic": 0.0002,
+    "Industrial": 0.0002,
+    "Irrigation": 0.0,
+    "Total": 0.0004
+  },
+  {
+    "year": 2004,
+    "state": "Nagaland",
+    "Domestic": 0.0045,
+    "Industrial": 0.0045,
+    "Irrigation": 0.0,
+    "Total": 0.009
+  },
+  {
+    "year": 2004,
+    "state": "Odisha",
+    "Domestic": 0.42,
+    "Industrial": 0.42,
+    "Irrigation": 3.01,
+    "Total": 3.85
+  },
+  {
+    "year": 2004,
+    "state": "Puducherry",
+    "Domestic": 0.015,
+    "Industrial": 0.015,
+    "Irrigation": 0.121,
+    "Total": 0.151
+  },
+  {
+    "year": 2004,
+    "state": "Punjab",
+    "Domestic": 0.415,
+    "Industrial": 0.415,
+    "Irrigation": 30.34,
+    "Total": 31.17
+  },
+  {
+    "year": 2004,
+    "state": "Rajasthan",
+    "Domestic": 0.695,
+    "Industrial": 0.695,
+    "Irrigation": 11.6,
+    "Total": 12.99
+  },
+  {
+    "year": 2004,
+    "state": "Sikkim",
+    "Domestic": 0.005,
+    "Industrial": 0.005,
+    "Irrigation": 0.0,
+    "Total": 0.01
+  },
+  {
+    "year": 2004,
+    "state": "Tamil Nadu",
+    "Domestic": 0.44,
+    "Industrial": 0.44,
+    "Irrigation": 16.77,
+    "Total": 17.65
+  },
+  {
+    "year": 2004,
+    "state": "Tripura",
+    "Domestic": 0.045,
+    "Industrial": 0.045,
+    "Irrigation": 0.08,
+    "Total": 0.17
+  },
+  {
+    "year": 2004,
+    "state": "Uttar Pradesh",
+    "Domestic": 1.71,
+    "Industrial": 1.71,
+    "Irrigation": 45.36,
+    "Total": 48.78
+  },
+  {
+    "year": 2004,
+    "state": "Uttarakhand",
+    "Domestic": 0.025,
+    "Industrial": 0.025,
+    "Irrigation": 1.34,
+    "Total": 1.39
+  },
+  {
+    "year": 2004,
+    "state": "West Bengal",
+    "Domestic": 0.405,
+    "Industrial": 0.405,
+    "Irrigation": 10.84,
+    "Total": 11.65
+  },
+  {
+    "year": 2009,
+    "state": "Andaman and Nicobar Islands",
+    "Domestic": 0.005,
+    "Industrial": 0.005,
+    "Irrigation": 0.0006,
+    "Total": 0.0106
+  },
+  {
+    "year": 2009,
+    "state": "Andhra Pradesh",
+    "Domestic": 0.77,
+    "Industrial": 0.77,
+    "Irrigation": 12.61,
+    "Total": 14.15
+  },
+  {
+    "year": 2009,
+    "state": "Arunachal Pradesh",
+    "Domestic": 0.0005,
+    "Industrial": 0.0005,
+    "Irrigation": 0.002,
+    "Total": 0.003
+  },
+  {
+    "year": 2009,
+    "state": "Assam",
+    "Domestic": 0.345,
+    "Industrial": 0.345,
+    "Irrigation": 5.333,
+    "Total": 6.023
+  },
+  {
+    "year": 2009,
+    "state": "Bihar",
+    "Domestic": 0.78,
+    "Industrial": 0.78,
+    "Irrigation": 9.79,
+    "Total": 11.35
+  },
+  {
+    "year": 2009,
+    "state": "Chandigarh",
+    "Domestic": 0.0,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.0
+  },
+  {
+    "year": 2009,
+    "state": "Chhattisgarh",
+    "Domestic": 0.26,
+    "Industrial": 0.26,
+    "Irrigation": 3.08,
+    "Total": 3.6
+  },
+  {
+    "year": 2009,
+    "state": "Dadra and Nagar Haveli",
+    "Domestic": 0.0035,
+    "Industrial": 0.0035,
+    "Irrigation": 0.001,
+    "Total": 0.008
+  },
+  {
+    "year": 2009,
+    "state": "Daman and Diu",
+    "Domestic": 0.0015,
+    "Industrial": 0.0015,
+    "Irrigation": 0.008,
+    "Total": 0.011
+  },
+  {
+    "year": 2009,
+    "state": "Delhi",
+    "Domestic": 0.13,
+    "Industrial": 0.13,
+    "Irrigation": 0.14,
+    "Total": 0.4
+  },
+  {
+    "year": 2009,
+    "state": "Goa",
+    "Domestic": 0.015,
+    "Industrial": 0.015,
+    "Irrigation": 0.014,
+    "Total": 0.044
+  },
+  {
+    "year": 2009,
+    "state": "Gujarat",
+    "Domestic": 0.525,
+    "Industrial": 0.525,
+    "Irrigation": 11.93,
+    "Total": 12.98
+  },
+  {
+    "year": 2009,
+    "state": "Haryana",
+    "Domestic": 0.36,
+    "Industrial": 0.36,
+    "Irrigation": 11.71,
+    "Total": 12.43
+  },
+  {
+    "year": 2009,
+    "state": "Himachal Pradesh",
+    "Domestic": 0.04,
+    "Industrial": 0.04,
+    "Irrigation": 0.23,
+    "Total": 0.31
+  },
+  {
+    "year": 2009,
+    "state": "Jammu and Kashmir",
+    "Domestic": 0.29,
+    "Industrial": 0.29,
+    "Irrigation": 0.15,
+    "Total": 0.73
+  },
+  {
+    "year": 2009,
+    "state": "Jharkhand",
+    "Domestic": 0.22,
+    "Industrial": 0.22,
+    "Irrigation": 1.17,
+    "Total": 1.61
+  },
+  {
+    "year": 2009,
+    "state": "Karnataka",
+    "Domestic": 0.5,
+    "Industrial": 0.5,
+    "Irrigation": 9.01,
+    "Total": 10.01
+  },
+  {
+    "year": 2009,
+    "state": "Kerala",
+    "Domestic": 0.75,
+    "Industrial": 0.75,
+    "Irrigation": 1.3,
+    "Total": 2.8
+  },
+  {
+    "year": 2009,
+    "state": "Lakshadweep",
+    "Domestic": 0.0013,
+    "Industrial": 0.0013,
+    "Irrigation": 0.0,
+    "Total": 0.0026
+  },
+  {
+    "year": 2009,
+    "state": "Madhya Pradesh",
+    "Domestic": 0.665,
+    "Industrial": 0.665,
+    "Irrigation": 16.66,
+    "Total": 17.99
+  },
+  {
+    "year": 2009,
+    "state": "Maharashtra",
+    "Domestic": 0.52,
+    "Industrial": 0.52,
+    "Irrigation": 15.91,
+    "Total": 16.95
+  },
+  {
+    "year": 2009,
+    "state": "Manipur",
+    "Domestic": 0.00035,
+    "Industrial": 0.00035,
+    "Irrigation": 0.0033,
+    "Total": 0.004
+  },
+  {
+    "year": 2009,
+    "state": "Meghalaya",
+    "Domestic": 0.0001,
+    "Industrial": 0.0001,
+    "Irrigation": 0.0015,
+    "Total": 0.0017
+  },
+  {
+    "year": 2009,
+    "state": "Mizoram",
+    "Domestic": 0.0002,
+    "Industrial": 0.0002,
+    "Irrigation": 0.0,
+    "Total": 0.0004
+  },
+  {
+    "year": 2009,
+    "state": "Nagaland",
+    "Domestic": 0.004,
+    "Industrial": 0.004,
+    "Irrigation": 0.0,
+    "Total": 0.008
+  },
+  {
+    "year": 2009,
+    "state": "Odisha",
+    "Domestic": 0.445,
+    "Industrial": 0.445,
+    "Irrigation": 3.47,
+    "Total": 4.36
+  },
+  {
+    "year": 2009,
+    "state": "Puducherry",
+    "Domestic": 0.0145,
+    "Industrial": 0.0145,
+    "Irrigation": 0.121,
+    "Total": 0.15
+  },
+  {
+    "year": 2009,
+    "state": "Punjab",
+    "Domestic": 0.345,
+    "Industrial": 0.345,
+    "Irrigation": 33.97,
+    "Total": 34.66
+  },
+  {
+    "year": 2009,
+    "state": "Rajasthan",
+    "Domestic": 0.825,
+    "Industrial": 0.825,
+    "Irrigation": 12.86,
+    "Total": 14.51
+  },
+  {
+    "year": 2009,
+    "state": "Sikkim",
+    "Domestic": 0.0035,
+    "Industrial": 0.0035,
+    "Irrigation": 0.003,
+    "Total": 0.01
+  },
+  {
+    "year": 2009,
+    "state": "Tamil Nadu",
+    "Domestic": 0.925,
+    "Industrial": 0.925,
+    "Irrigation": 14.71,
+    "Total": 16.56
+  },
+  {
+    "year": 2009,
+    "state": "Tripura",
+    "Domestic": 0.035,
+    "Industrial": 0.035,
+    "Irrigation": 0.09,
+    "Total": 0.16
+  },
+  {
+    "year": 2009,
+    "state": "Uttar Pradesh",
+    "Domestic": 1.745,
+    "Industrial": 1.745,
+    "Irrigation": 46.0,
+    "Total": 49.49
+  },
+  {
+    "year": 2009,
+    "state": "Uttarakhand",
+    "Domestic": 0.015,
+    "Industrial": 0.015,
+    "Irrigation": 1.01,
+    "Total": 1.04
+  },
+  {
+    "year": 2009,
+    "state": "West Bengal",
+    "Domestic": 0.395,
+    "Industrial": 0.395,
+    "Irrigation": 10.11,
+    "Total": 10.9
+  },
+  {
+    "year": 2011,
+    "state": "Andaman and Nicobar Islands",
+    "Domestic": 0.006,
+    "Industrial": 0.006,
+    "Irrigation": 0.001,
+    "Total": 0.013
+  },
+  {
+    "year": 2011,
+    "state": "Andhra Pradesh",
+    "Domestic": 0.665,
+    "Industrial": 0.665,
+    "Irrigation": 13.18,
+    "Total": 14.51
+  },
+  {
+    "year": 2011,
+    "state": "Arunachal Pradesh",
+    "Domestic": 0.0005,
+    "Industrial": 0.0005,
+    "Irrigation": 0.002,
+    "Total": 0.003
+  },
+  {
+    "year": 2011,
+    "state": "Assam",
+    "Domestic": 0.32,
+    "Industrial": 0.32,
+    "Irrigation": 2.86,
+    "Total": 3.5
+  },
+  {
+    "year": 2011,
+    "state": "Bihar",
+    "Domestic": 0.85,
+    "Industrial": 0.85,
+    "Irrigation": 10.25,
+    "Total": 11.95
+  },
+  {
+    "year": 2011,
+    "state": "Chandigarh",
+    "Domestic": 0.0,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.0
+  },
+  {
+    "year": 2011,
+    "state": "Chhattisgarh",
+    "Domestic": 0.31,
+    "Industrial": 0.31,
+    "Irrigation": 3.43,
+    "Total": 4.05
+  },
+  {
+    "year": 2011,
+    "state": "Dadra and Nagar Haveli",
+    "Domestic": 0.003,
+    "Industrial": 0.003,
+    "Irrigation": 0.007,
+    "Total": 0.013
+  },
+  {
+    "year": 2011,
+    "state": "Daman and Diu",
+    "Domestic": 0.001,
+    "Industrial": 0.001,
+    "Irrigation": 0.014,
+    "Total": 0.016
+  },
+  {
+    "year": 2011,
+    "state": "Delhi",
+    "Domestic": 0.125,
+    "Industrial": 0.125,
+    "Irrigation": 0.14,
+    "Total": 0.39
+  },
+  {
+    "year": 2011,
+    "state": "Goa",
+    "Domestic": 0.015,
+    "Industrial": 0.015,
+    "Irrigation": 0.01,
+    "Total": 0.04
+  },
+  {
+    "year": 2011,
+    "state": "Gujarat",
+    "Domestic": 0.555,
+    "Industrial": 0.555,
+    "Irrigation": 10.75,
+    "Total": 11.86
+  },
+  {
+    "year": 2011,
+    "state": "Haryana",
+    "Domestic": 0.355,
+    "Industrial": 0.355,
+    "Irrigation": 12.35,
+    "Total": 13.06
+  },
+  {
+    "year": 2011,
+    "state": "Himachal Pradesh",
+    "Domestic": 0.065,
+    "Industrial": 0.065,
+    "Irrigation": 0.25,
+    "Total": 0.38
+  },
+  {
+    "year": 2011,
+    "state": "Jammu and Kashmir",
+    "Domestic": 0.305,
+    "Industrial": 0.305,
+    "Irrigation": 0.2,
+    "Total": 0.81
+  },
+  {
+    "year": 2011,
+    "state": "Jharkhand",
+    "Domestic": 0.275,
+    "Industrial": 0.275,
+    "Irrigation": 1.31,
+    "Total": 1.86
+  },
+  {
+    "year": 2011,
+    "state": "Karnataka",
+    "Domestic": 0.41,
+    "Industrial": 0.41,
+    "Irrigation": 8.59,
+    "Total": 9.41
+  },
+  {
+    "year": 2011,
+    "state": "Kerala",
+    "Domestic": 0.765,
+    "Industrial": 0.765,
+    "Irrigation": 1.3,
+    "Total": 2.83
+  },
+  {
+    "year": 2011,
+    "state": "Lakshadweep",
+    "Domestic": 0.00115,
+    "Industrial": 0.00115,
+    "Irrigation": 0.0,
+    "Total": 0.0023
+  },
+  {
+    "year": 2011,
+    "state": "Madhya Pradesh",
+    "Domestic": 0.675,
+    "Industrial": 0.675,
+    "Irrigation": 17.48,
+    "Total": 18.83
+  },
+  {
+    "year": 2011,
+    "state": "Maharashtra",
+    "Domestic": 0.515,
+    "Industrial": 0.515,
+    "Irrigation": 16.15,
+    "Total": 17.18
+  },
+  {
+    "year": 2011,
+    "state": "Manipur",
+    "Domestic": 0.00035,
+    "Industrial": 0.00035,
+    "Irrigation": 0.0033,
+    "Total": 0.004
+  },
+  {
+    "year": 2011,
+    "state": "Meghalaya",
+    "Domestic": 0.0001,
+    "Industrial": 0.0001,
+    "Irrigation": 0.0015,
+    "Total": 0.0017
+  },
+  {
+    "year": 2011,
+    "state": "Mizoram",
+    "Domestic": 0.0005,
+    "Industrial": 0.0005,
+    "Irrigation": 0.0,
+    "Total": 0.001
+  },
+  {
+    "year": 2011,
+    "state": "Nagaland",
+    "Domestic": 0.015,
+    "Industrial": 0.015,
+    "Irrigation": 0.0,
+    "Total": 0.03
+  },
+  {
+    "year": 2011,
+    "state": "Odisha",
+    "Domestic": 0.46,
+    "Industrial": 0.46,
+    "Irrigation": 3.81,
+    "Total": 4.73
+  },
+  {
+    "year": 2011,
+    "state": "Puducherry",
+    "Domestic": 0.0145,
+    "Industrial": 0.0145,
+    "Irrigation": 0.124,
+    "Total": 0.153
+  },
+  {
+    "year": 2011,
+    "state": "Punjab",
+    "Domestic": 0.355,
+    "Industrial": 0.355,
+    "Irrigation": 34.17,
+    "Total": 34.88
+  },
+  {
+    "year": 2011,
+    "state": "Rajasthan",
+    "Domestic": 0.855,
+    "Industrial": 0.855,
+    "Irrigation": 13.13,
+    "Total": 14.84
+  },
+  {
+    "year": 2011,
+    "state": "Sikkim",
+    "Domestic": 0.0045,
+    "Industrial": 0.0045,
+    "Irrigation": 0.003,
+    "Total": 0.012
+  },
+  {
+    "year": 2011,
+    "state": "Tamil Nadu",
+    "Domestic": 0.88,
+    "Industrial": 0.88,
+    "Irrigation": 13.17,
+    "Total": 14.93
+  },
+  {
+    "year": 2011,
+    "state": "Tripura",
+    "Domestic": 0.0345,
+    "Industrial": 0.0345,
+    "Irrigation": 0.093,
+    "Total": 0.162
+  },
+  {
+    "year": 2011,
+    "state": "Uttar Pradesh",
+    "Domestic": 2.02,
+    "Industrial": 2.02,
+    "Irrigation": 48.74,
+    "Total": 52.78
+  },
+  {
+    "year": 2011,
+    "state": "Uttarakhand",
+    "Domestic": 0.015,
+    "Industrial": 0.015,
+    "Irrigation": 1.1,
+    "Total": 1.13
+  },
+  {
+    "year": 2011,
+    "state": "West Bengal",
+    "Domestic": 0.485,
+    "Industrial": 0.485,
+    "Irrigation": 9.72,
+    "Total": 10.69
+  },
+  {
+    "year": 2013,
+    "state": "Andaman and Nicobar Islands",
+    "Domestic": 0.00175,
+    "Industrial": 0.00175,
+    "Irrigation": 0.0,
+    "Total": 0.0035
+  },
+  {
+    "year": 2013,
+    "state": "Andhra Pradesh",
+    "Domestic": 0.405,
+    "Industrial": 0.405,
+    "Irrigation": 7.29,
+    "Total": 8.1
+  },
+  {
+    "year": 2013,
+    "state": "Arunachal Pradesh",
+    "Domestic": 0.0035,
+    "Industrial": 0.0035,
+    "Irrigation": 0.002,
+    "Total": 0.009
+  },
+  {
+    "year": 2013,
+    "state": "Assam",
+    "Domestic": 0.34,
+    "Industrial": 0.34,
+    "Irrigation": 4.06,
+    "Total": 4.74
+  },
+  {
+    "year": 2013,
+    "state": "Bihar",
+    "Domestic": 1.185,
+    "Industrial": 1.185,
+    "Irrigation": 10.36,
+    "Total": 12.73
+  },
+  {
+    "year": 2013,
+    "state": "Chandigarh",
+    "Domestic": 0.0,
+    "Industrial": 0.0,
+    "Irrigation": 0.008,
+    "Total": 0.008
+  },
+  {
+    "year": 2013,
+    "state": "Chhattisgarh",
+    "Domestic": 0.32,
+    "Industrial": 0.32,
+    "Irrigation": 3.76,
+    "Total": 4.4
+  },
+  {
+    "year": 2013,
+    "state": "Dadra and Nagar Haveli",
+    "Domestic": 0.0065,
+    "Industrial": 0.0065,
+    "Irrigation": 0.008,
+    "Total": 0.021
+  },
+  {
+    "year": 2013,
+    "state": "Daman and Diu",
+    "Domestic": 0.001,
+    "Industrial": 0.001,
+    "Irrigation": 0.0,
+    "Total": 0.002
+  },
+  {
+    "year": 2013,
+    "state": "Delhi",
+    "Domestic": 0.125,
+    "Industrial": 0.125,
+    "Irrigation": 0.14,
+    "Total": 0.39
+  },
+  {
+    "year": 2013,
+    "state": "Goa",
+    "Domestic": 0.015,
+    "Industrial": 0.015,
+    "Irrigation": 0.02,
+    "Total": 0.05
+  },
+  {
+    "year": 2013,
+    "state": "Gujarat",
+    "Domestic": 0.57,
+    "Industrial": 0.57,
+    "Irrigation": 12.3,
+    "Total": 13.44
+  },
+  {
+    "year": 2013,
+    "state": "Haryana",
+    "Domestic": 0.3,
+    "Industrial": 0.3,
+    "Irrigation": 13.32,
+    "Total": 13.92
+  },
+  {
+    "year": 2013,
+    "state": "Himachal Pradesh",
+    "Domestic": 0.055,
+    "Industrial": 0.055,
+    "Irrigation": 0.16,
+    "Total": 0.27
+  },
+  {
+    "year": 2013,
+    "state": "Jammu and Kashmir",
+    "Domestic": 0.49,
+    "Industrial": 0.49,
+    "Irrigation": 0.2,
+    "Total": 1.18
+  },
+  {
+    "year": 2013,
+    "state": "Jharkhand",
+    "Domestic": 0.36,
+    "Industrial": 0.36,
+    "Irrigation": 0.63,
+    "Total": 1.35
+  },
+  {
+    "year": 2013,
+    "state": "Karnataka",
+    "Domestic": 0.495,
+    "Industrial": 0.495,
+    "Irrigation": 8.76,
+    "Total": 9.75
+  },
+  {
+    "year": 2013,
+    "state": "Kerala",
+    "Domestic": 0.725,
+    "Industrial": 0.725,
+    "Irrigation": 1.18,
+    "Total": 2.63
+  },
+  {
+    "year": 2013,
+    "state": "Lakshadweep",
+    "Domestic": 0.001185,
+    "Industrial": 0.001185,
+    "Irrigation": 0.124,
+    "Total": 0.12637
+  },
+  {
+    "year": 2013,
+    "state": "Madhya Pradesh",
+    "Domestic": 0.705,
+    "Industrial": 0.705,
+    "Irrigation": 17.95,
+    "Total": 19.36
+  },
+  {
+    "year": 2013,
+    "state": "Maharashtra",
+    "Domestic": 0.57,
+    "Industrial": 0.57,
+    "Irrigation": 15.93,
+    "Total": 17.07
+  },
+  {
+    "year": 2013,
+    "state": "Manipur",
+    "Domestic": 0.0005,
+    "Industrial": 0.0005,
+    "Irrigation": 0.004,
+    "Total": 0.005
+  },
+  {
+    "year": 2013,
+    "state": "Meghalaya",
+    "Domestic": 0.002,
+    "Industrial": 0.002,
+    "Irrigation": 0.008,
+    "Total": 0.012
+  },
+  {
+    "year": 2013,
+    "state": "Mizoram",
+    "Domestic": 0.00052,
+    "Industrial": 0.00052,
+    "Irrigation": 0.0,
+    "Total": 0.00104
+  },
+  {
+    "year": 2013,
+    "state": "Nagaland",
+    "Domestic": 0.015,
+    "Industrial": 0.015,
+    "Irrigation": 0.0,
+    "Total": 0.03
+  },
+  {
+    "year": 2013,
+    "state": "Odisha",
+    "Domestic": 0.435,
+    "Industrial": 0.435,
+    "Irrigation": 4.14,
+    "Total": 5.01
+  },
+  {
+    "year": 2013,
+    "state": "Puducherry",
+    "Domestic": 0.0145,
+    "Industrial": 0.0145,
+    "Irrigation": 0.139,
+    "Total": 0.168
+  },
+  {
+    "year": 2013,
+    "state": "Punjab",
+    "Domestic": 0.385,
+    "Industrial": 0.385,
+    "Irrigation": 34.05,
+    "Total": 34.82
+  },
+  {
+    "year": 2013,
+    "state": "Rajasthan",
+    "Domestic": 0.96,
+    "Industrial": 0.96,
+    "Irrigation": 13.79,
+    "Total": 15.71
+  },
+  {
+    "year": 2013,
+    "state": "Sikkim",
+    "Domestic": 0.0,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.0
+  },
+  {
+    "year": 2013,
+    "state": "Tamil Nadu",
+    "Domestic": 0.69,
+    "Industrial": 0.69,
+    "Irrigation": 12.98,
+    "Total": 14.36
+  },
+  {
+    "year": 2013,
+    "state": "Telangana",
+    "Domestic": 0.38,
+    "Industrial": 0.38,
+    "Irrigation": 7.0,
+    "Total": 7.76
+  },
+  {
+    "year": 2013,
+    "state": "Tripura",
+    "Domestic": 0.036,
+    "Industrial": 0.036,
+    "Irrigation": 0.093,
+    "Total": 0.165
+  },
+  {
+    "year": 2013,
+    "state": "Uttar Pradesh",
+    "Domestic": 2.205,
+    "Industrial": 2.205,
+    "Irrigation": 48.35,
+    "Total": 52.76
+  },
+  {
+    "year": 2013,
+    "state": "Uttarakhand",
+    "Domestic": 0.075,
+    "Industrial": 0.075,
+    "Irrigation": 0.84,
+    "Total": 0.99
+  },
+  {
+    "year": 2013,
+    "state": "West Bengal",
+    "Domestic": 0.5,
+    "Industrial": 0.5,
+    "Irrigation": 10.84,
+    "Total": 11.84
+  },
+  {
+    "year": 2017,
+    "state": "Andaman and Nicobar Islands",
+    "Domestic": 0.01,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.01
+  },
+  {
+    "year": 2017,
+    "state": "Andhra Pradesh",
+    "Domestic": 0.9,
+    "Industrial": 0.14,
+    "Irrigation": 7.85,
+    "Total": 8.89
+  },
+  {
+    "year": 2017,
+    "state": "Arunachal Pradesh",
+    "Domestic": 0.01,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.01
+  },
+  {
+    "year": 2017,
+    "state": "Assam",
+    "Domestic": 0.69,
+    "Industrial": 0.06,
+    "Irrigation": 1.97,
+    "Total": 2.72
+  },
+  {
+    "year": 2017,
+    "state": "Bihar",
+    "Domestic": 1.83,
+    "Industrial": 0.66,
+    "Irrigation": 10.78,
+    "Total": 13.27
+  },
+  {
+    "year": 2017,
+    "state": "Chandigarh",
+    "Domestic": 0.03,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.03
+  },
+  {
+    "year": 2017,
+    "state": "Chhattisgarh",
+    "Domestic": 0.67,
+    "Industrial": 0.05,
+    "Irrigation": 3.98,
+    "Total": 4.7
+  },
+  {
+    "year": 2017,
+    "state": "Dadra and Nagar Haveli",
+    "Domestic": 0.01,
+    "Industrial": 0.0,
+    "Irrigation": 0.01,
+    "Total": 0.02
+  },
+  {
+    "year": 2017,
+    "state": "Daman and Diu",
+    "Domestic": 0.0,
+    "Industrial": 0.0,
+    "Irrigation": 0.01,
+    "Total": 0.01
+  },
+  {
+    "year": 2017,
+    "state": "Delhi",
+    "Domestic": 0.24,
+    "Industrial": 0.02,
+    "Irrigation": 0.09,
+    "Total": 0.35
+  },
+  {
+    "year": 2017,
+    "state": "Goa",
+    "Domestic": 0.03,
+    "Industrial": 0.0,
+    "Irrigation": 0.02,
+    "Total": 0.05
+  },
+  {
+    "year": 2017,
+    "state": "Gujarat",
+    "Domestic": 0.63,
+    "Industrial": 0.11,
+    "Irrigation": 12.84,
+    "Total": 13.58
+  },
+  {
+    "year": 2017,
+    "state": "Haryana",
+    "Domestic": 0.63,
+    "Industrial": 0.34,
+    "Irrigation": 11.53,
+    "Total": 12.5
+  },
+  {
+    "year": 2017,
+    "state": "Himachal Pradesh",
+    "Domestic": 0.19,
+    "Industrial": 0.0,
+    "Irrigation": 0.2,
+    "Total": 0.39
+  },
+  {
+    "year": 2017,
+    "state": "Jammu and Kashmir",
+    "Domestic": 0.5,
+    "Industrial": 0.07,
+    "Irrigation": 0.2,
+    "Total": 0.77
+  },
+  {
+    "year": 2017,
+    "state": "Jharkhand",
+    "Domestic": 0.56,
+    "Industrial": 0.22,
+    "Irrigation": 0.8,
+    "Total": 1.58
+  },
+  {
+    "year": 2017,
+    "state": "Karnataka",
+    "Domestic": 0.95,
+    "Industrial": 0.0,
+    "Irrigation": 9.39,
+    "Total": 10.34
+  },
+  {
+    "year": 2017,
+    "state": "Kerala",
+    "Domestic": 1.44,
+    "Industrial": 0.01,
+    "Irrigation": 1.22,
+    "Total": 2.67
+  },
+  {
+    "year": 2017,
+    "state": "Lakshadweep",
+    "Domestic": 0.002,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.002
+  },
+  {
+    "year": 2017,
+    "state": "Madhya Pradesh",
+    "Domestic": 1.24,
+    "Industrial": 0.22,
+    "Irrigation": 17.43,
+    "Total": 18.89
+  },
+  {
+    "year": 2017,
+    "state": "Maharashtra",
+    "Domestic": 1.22,
+    "Industrial": 0.003,
+    "Irrigation": 15.1,
+    "Total": 16.323
+  },
+  {
+    "year": 2017,
+    "state": "Manipur",
+    "Domestic": 0.0,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.0
+  },
+  {
+    "year": 2017,
+    "state": "Meghalaya",
+    "Domestic": 0.01,
+    "Industrial": 0.0,
+    "Irrigation": 0.03,
+    "Total": 0.04
+  },
+  {
+    "year": 2017,
+    "state": "Mizoram",
+    "Domestic": 0.01,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.01
+  },
+  {
+    "year": 2017,
+    "state": "Nagaland",
+    "Domestic": 0.02,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.02
+  },
+  {
+    "year": 2017,
+    "state": "Odisha",
+    "Domestic": 1.15,
+    "Industrial": 0.14,
+    "Irrigation": 5.28,
+    "Total": 6.57
+  },
+  {
+    "year": 2017,
+    "state": "Puducherry",
+    "Domestic": 0.04,
+    "Industrial": 0.0,
+    "Irrigation": 0.11,
+    "Total": 0.15
+  },
+  {
+    "year": 2017,
+    "state": "Punjab",
+    "Domestic": 1.01,
+    "Industrial": 0.2,
+    "Irrigation": 34.56,
+    "Total": 35.77
+  },
+  {
+    "year": 2017,
+    "state": "Rajasthan",
+    "Domestic": 1.92,
+    "Industrial": 0.0,
+    "Irrigation": 14.85,
+    "Total": 16.77
+  },
+  {
+    "year": 2017,
+    "state": "Sikkim",
+    "Domestic": 0.0,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.0
+  },
+  {
+    "year": 2017,
+    "state": "Tamil Nadu",
+    "Domestic": 1.67,
+    "Industrial": 0.0,
+    "Irrigation": 13.06,
+    "Total": 14.73
+  },
+  {
+    "year": 2017,
+    "state": "Telangana",
+    "Domestic": 1.0,
+    "Industrial": 0.0,
+    "Irrigation": 7.09,
+    "Total": 8.09
+  },
+  {
+    "year": 2017,
+    "state": "Tripura",
+    "Domestic": 0.08,
+    "Industrial": 0.0,
+    "Irrigation": 0.02,
+    "Total": 0.1
+  },
+  {
+    "year": 2017,
+    "state": "Uttar Pradesh",
+    "Domestic": 4.95,
+    "Industrial": 0.0,
+    "Irrigation": 40.89,
+    "Total": 45.84
+  },
+  {
+    "year": 2017,
+    "state": "Uttarakhand",
+    "Domestic": 0.22,
+    "Industrial": 0.13,
+    "Irrigation": 1.3,
+    "Total": 1.65
+  },
+  {
+    "year": 2017,
+    "state": "West Bengal",
+    "Domestic": 1.0,
+    "Industrial": 0.0,
+    "Irrigation": 10.84,
+    "Total": 11.84
+  },
+  {
+    "year": 2020,
+    "state": "Andaman and Nicobar Islands",
+    "Domestic": 0.01,
+    "Industrial": 0.001,
+    "Irrigation": 0.0001,
+    "Total": 0.0111
+  },
+  {
+    "year": 2020,
+    "state": "Andhra Pradesh",
+    "Domestic": 0.88,
+    "Industrial": 0.15,
+    "Irrigation": 6.6,
+    "Total": 7.63
+  },
+  {
+    "year": 2020,
+    "state": "Arunachal Pradesh",
+    "Domestic": 0.01,
+    "Industrial": 0.0002,
+    "Irrigation": 0.003,
+    "Total": 0.0132
+  },
+  {
+    "year": 2020,
+    "state": "Assam",
+    "Domestic": 0.6,
+    "Industrial": 0.01,
+    "Irrigation": 1.97,
+    "Total": 2.58
+  },
+  {
+    "year": 2020,
+    "state": "Bihar",
+    "Domestic": 2.04,
+    "Industrial": 0.65,
+    "Irrigation": 10.33,
+    "Total": 13.02
+  },
+  {
+    "year": 2020,
+    "state": "Chandigarh",
+    "Domestic": 0.03,
+    "Industrial": 0.002,
+    "Irrigation": 0.01,
+    "Total": 0.042
+  },
+  {
+    "year": 2020,
+    "state": "Chhattisgarh",
+    "Domestic": 0.71,
+    "Industrial": 0.1,
+    "Irrigation": 4.53,
+    "Total": 5.34
+  },
+  {
+    "year": 2020,
+    "state": "Dadra and Nagar Haveli",
+    "Domestic": 0.02,
+    "Industrial": 0.01,
+    "Irrigation": 0.01,
+    "Total": 0.04
+  },
+  {
+    "year": 2020,
+    "state": "Daman and Diu",
+    "Domestic": 0.0,
+    "Industrial": 0.03,
+    "Irrigation": 0.003,
+    "Total": 0.033
+  },
+  {
+    "year": 2020,
+    "state": "Delhi",
+    "Domestic": 0.18,
+    "Industrial": 0.04,
+    "Irrigation": 0.07,
+    "Total": 0.29
+  },
+  {
+    "year": 2020,
+    "state": "Goa",
+    "Domestic": 0.05,
+    "Industrial": 0.004,
+    "Irrigation": 0.02,
+    "Total": 0.074
+  },
+  {
+    "year": 2020,
+    "state": "Gujarat",
+    "Domestic": 0.62,
+    "Industrial": 0.03,
+    "Irrigation": 12.65,
+    "Total": 13.3
+  },
+  {
+    "year": 2020,
+    "state": "Haryana",
+    "Domestic": 0.62,
+    "Industrial": 0.53,
+    "Irrigation": 10.47,
+    "Total": 11.62
+  },
+  {
+    "year": 2020,
+    "state": "Himachal Pradesh",
+    "Domestic": 0.1,
+    "Industrial": 0.05,
+    "Irrigation": 0.2,
+    "Total": 0.35
+  },
+  {
+    "year": 2020,
+    "state": "Jammu and Kashmir",
+    "Domestic": 0.56,
+    "Industrial": 0.13,
+    "Irrigation": 0.2,
+    "Total": 0.89
+  },
+  {
+    "year": 2020,
+    "state": "Jharkhand",
+    "Domestic": 0.51,
+    "Industrial": 0.2,
+    "Irrigation": 0.93,
+    "Total": 1.64
+  },
+  {
+    "year": 2020,
+    "state": "Karnataka",
+    "Domestic": 1.03,
+    "Industrial": 0.0,
+    "Irrigation": 9.6,
+    "Total": 10.63
+  },
+  {
+    "year": 2020,
+    "state": "Kerala",
+    "Domestic": 1.47,
+    "Industrial": 0.01,
+    "Irrigation": 1.16,
+    "Total": 2.64
+  },
+  {
+    "year": 2020,
+    "state": "Ladakh",
+    "Domestic": 0.02,
+    "Industrial": 0.0002,
+    "Irrigation": 0.001,
+    "Total": 0.0212
+  },
+  {
+    "year": 2020,
+    "state": "Lakshadweep",
+    "Domestic": 0.003,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.003
+  },
+  {
+    "year": 2020,
+    "state": "Madhya Pradesh",
+    "Domestic": 1.61,
+    "Industrial": 0.03,
+    "Irrigation": 17.33,
+    "Total": 18.97
+  },
+  {
+    "year": 2020,
+    "state": "Maharashtra",
+    "Domestic": 1.34,
+    "Industrial": 0.003,
+    "Irrigation": 15.29,
+    "Total": 16.633
+  },
+  {
+    "year": 2020,
+    "state": "Manipur",
+    "Domestic": 0.02,
+    "Industrial": 0.0002,
+    "Irrigation": 0.003,
+    "Total": 0.0232
+  },
+  {
+    "year": 2020,
+    "state": "Meghalaya",
+    "Domestic": 0.05,
+    "Industrial": 0.0003,
+    "Irrigation": 0.03,
+    "Total": 0.0803
+  },
+  {
+    "year": 2020,
+    "state": "Mizoram",
+    "Domestic": 0.01,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.01
+  },
+  {
+    "year": 2020,
+    "state": "Nagaland",
+    "Domestic": 0.02,
+    "Industrial": 0.00003,
+    "Irrigation": 0.002,
+    "Total": 0.02203
+  },
+  {
+    "year": 2020,
+    "state": "Odisha",
+    "Domestic": 1.21,
+    "Industrial": 0.15,
+    "Irrigation": 5.5,
+    "Total": 6.86
+  },
+  {
+    "year": 2020,
+    "state": "Puducherry",
+    "Domestic": 0.05,
+    "Industrial": 0.01,
+    "Irrigation": 0.1,
+    "Total": 0.16
+  },
+  {
+    "year": 2020,
+    "state": "Punjab",
+    "Domestic": 1.05,
+    "Industrial": 0.0,
+    "Irrigation": 32.8,
+    "Total": 33.85
+  },
+  {
+    "year": 2020,
+    "state": "Rajasthan",
+    "Domestic": 2.14,
+    "Industrial": 0.13,
+    "Irrigation": 14.37,
+    "Total": 16.64
+  },
+  {
+    "year": 2020,
+    "state": "Sikkim",
+    "Domestic": 0.01,
+    "Industrial": 0.002,
+    "Irrigation": 0.0,
+    "Total": 0.012
+  },
+  {
+    "year": 2020,
+    "state": "Tamil Nadu",
+    "Domestic": 0.99,
+    "Industrial": 0.17,
+    "Irrigation": 13.52,
+    "Total": 14.68
+  },
+  {
+    "year": 2020,
+    "state": "Telangana",
+    "Domestic": 0.73,
+    "Industrial": 0.14,
+    "Irrigation": 7.13,
+    "Total": 8.0
+  },
+  {
+    "year": 2020,
+    "state": "Tripura",
+    "Domestic": 0.08,
+    "Industrial": 0.0002,
+    "Irrigation": 0.02,
+    "Total": 0.1002
+  },
+  {
+    "year": 2020,
+    "state": "Uttar Pradesh",
+    "Domestic": 4.74,
+    "Industrial": 0.0,
+    "Irrigation": 41.29,
+    "Total": 46.03
+  },
+  {
+    "year": 2020,
+    "state": "Uttarakhand",
+    "Domestic": 0.15,
+    "Industrial": 0.09,
+    "Irrigation": 0.63,
+    "Total": 0.87
+  },
+  {
+    "year": 2020,
+    "state": "West Bengal",
+    "Domestic": 0.73,
+    "Industrial": 0.27,
+    "Irrigation": 10.84,
+    "Total": 11.84
+  },
+  {
+    "year": 2022,
+    "state": "Andaman and Nicobar Islands",
+    "Domestic": 0.0065,
+    "Industrial": 0.001,
+    "Irrigation": 0.0001,
+    "Total": 0.0076
+  },
+  {
+    "year": 2022,
+    "state": "Andhra Pradesh",
+    "Domestic": 0.83,
+    "Industrial": 0.16,
+    "Irrigation": 6.46,
+    "Total": 7.45
+  },
+  {
+    "year": 2022,
+    "state": "Arunachal Pradesh",
+    "Domestic": 0.01,
+    "Industrial": 0.01,
+    "Irrigation": 0.02,
+    "Total": 0.04
+  },
+  {
+    "year": 2022,
+    "state": "Assam",
+    "Domestic": 0.58,
+    "Industrial": 0.01,
+    "Irrigation": 2.06,
+    "Total": 2.65
+  },
+  {
+    "year": 2022,
+    "state": "Bihar",
+    "Domestic": 3.14,
+    "Industrial": 0.35,
+    "Irrigation": 10.01,
+    "Total": 13.5
+  },
+  {
+    "year": 2022,
+    "state": "Chandigarh",
+    "Domestic": 0.03,
+    "Industrial": 0.002,
+    "Irrigation": 0.01,
+    "Total": 0.042
+  },
+  {
+    "year": 2022,
+    "state": "Chhattisgarh",
+    "Domestic": 0.73,
+    "Industrial": 0.11,
+    "Irrigation": 4.62,
+    "Total": 5.46
+  },
+  {
+    "year": 2022,
+    "state": "Dadra and Nagar Haveli",
+    "Domestic": 0.01,
+    "Industrial": 0.09,
+    "Irrigation": 0.01,
+    "Total": 0.11
+  },
+  {
+    "year": 2022,
+    "state": "Daman and Diu",
+    "Domestic": 0.0,
+    "Industrial": 0.055,
+    "Irrigation": 0.003,
+    "Total": 0.058
+  },
+  {
+    "year": 2022,
+    "state": "Delhi",
+    "Domestic": 0.2716,
+    "Industrial": 0.0007,
+    "Irrigation": 0.0904,
+    "Total": 0.3627
+  },
+  {
+    "year": 2022,
+    "state": "Goa",
+    "Domestic": 0.048,
+    "Industrial": 0.004,
+    "Irrigation": 0.026,
+    "Total": 0.078
+  },
+  {
+    "year": 2022,
+    "state": "Gujarat",
+    "Domestic": 0.82,
+    "Industrial": 0.16,
+    "Irrigation": 12.1,
+    "Total": 13.08
+  },
+  {
+    "year": 2022,
+    "state": "Haryana",
+    "Domestic": 0.65,
+    "Industrial": 0.6,
+    "Irrigation": 10.3,
+    "Total": 11.55
+  },
+  {
+    "year": 2022,
+    "state": "Himachal Pradesh",
+    "Domestic": 0.12,
+    "Industrial": 0.05,
+    "Irrigation": 0.18,
+    "Total": 0.35
+  },
+  {
+    "year": 2022,
+    "state": "Jammu and Kashmir",
+    "Domestic": 0.71,
+    "Industrial": 0.05,
+    "Irrigation": 0.31,
+    "Total": 1.07
+  },
+  {
+    "year": 2022,
+    "state": "Jharkhand",
+    "Domestic": 0.65,
+    "Industrial": 0.21,
+    "Irrigation": 0.93,
+    "Total": 1.79
+  },
+  {
+    "year": 2022,
+    "state": "Karnataka",
+    "Domestic": 1.09,
+    "Industrial": 0.13,
+    "Irrigation": 10.01,
+    "Total": 11.23
+  },
+  {
+    "year": 2022,
+    "state": "Kerala",
+    "Domestic": 1.55,
+    "Industrial": 0.01,
+    "Irrigation": 1.17,
+    "Total": 2.73
+  },
+  {
+    "year": 2022,
+    "state": "Ladakh",
+    "Domestic": 0.03,
+    "Industrial": 0.0002,
+    "Irrigation": 0.00037,
+    "Total": 0.03057
+  },
+  {
+    "year": 2022,
+    "state": "Lakshadweep",
+    "Domestic": 0.0,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.0
+  },
+  {
+    "year": 2022,
+    "state": "Madhya Pradesh",
+    "Domestic": 1.69,
+    "Industrial": 0.17,
+    "Irrigation": 17.39,
+    "Total": 19.25
+  },
+  {
+    "year": 2022,
+    "state": "Maharashtra",
+    "Domestic": 1.35,
+    "Industrial": 0.003,
+    "Irrigation": 15.29,
+    "Total": 16.643
+  },
+  {
+    "year": 2022,
+    "state": "Manipur",
+    "Domestic": 0.02,
+    "Industrial": 0.0002,
+    "Irrigation": 0.02,
+    "Total": 0.0402
+  },
+  {
+    "year": 2022,
+    "state": "Meghalaya",
+    "Domestic": 0.05,
+    "Industrial": 0.0007,
+    "Irrigation": 0.003,
+    "Total": 0.0537
+  },
+  {
+    "year": 2022,
+    "state": "Mizoram",
+    "Domestic": 0.01,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.01
+  },
+  {
+    "year": 2022,
+    "state": "Nagaland",
+    "Domestic": 0.02,
+    "Industrial": 0.00002,
+    "Irrigation": 0.002,
+    "Total": 0.02202
+  },
+  {
+    "year": 2022,
+    "state": "Odisha",
+    "Domestic": 1.24,
+    "Industrial": 0.16,
+    "Irrigation": 5.83,
+    "Total": 7.23
+  },
+  {
+    "year": 2022,
+    "state": "Puducherry",
+    "Domestic": 0.05,
+    "Industrial": 0.01,
+    "Irrigation": 0.08,
+    "Total": 0.14
+  },
+  {
+    "year": 2022,
+    "state": "Punjab",
+    "Domestic": 1.17,
+    "Industrial": 0.16,
+    "Irrigation": 26.69,
+    "Total": 28.02
+  },
+  {
+    "year": 2022,
+    "state": "Rajasthan",
+    "Domestic": 2.23,
+    "Industrial": 0.14,
+    "Irrigation": 14.18,
+    "Total": 16.55
+  },
+  {
+    "year": 2022,
+    "state": "Sikkim",
+    "Domestic": 0.0036,
+    "Industrial": 0.0022,
+    "Irrigation": 0.0089,
+    "Total": 0.0147
+  },
+  {
+    "year": 2022,
+    "state": "Tamil Nadu",
+    "Domestic": 0.57,
+    "Industrial": 0.18,
+    "Irrigation": 13.68,
+    "Total": 14.43
+  },
+  {
+    "year": 2022,
+    "state": "Telangana",
+    "Domestic": 0.596,
+    "Industrial": 0.154,
+    "Irrigation": 7.257,
+    "Total": 8.007
+  },
+  {
+    "year": 2022,
+    "state": "Tripura",
+    "Domestic": 0.08,
+    "Industrial": 0.0007,
+    "Irrigation": 0.02,
+    "Total": 0.1007
+  },
+  {
+    "year": 2022,
+    "state": "Uttar Pradesh",
+    "Domestic": 5.01,
+    "Industrial": 0.41,
+    "Irrigation": 40.72,
+    "Total": 46.14
+  },
+  {
+    "year": 2022,
+    "state": "Uttarakhand",
+    "Domestic": 0.15,
+    "Industrial": 0.12,
+    "Irrigation": 0.63,
+    "Total": 0.9
+  },
+  {
+    "year": 2022,
+    "state": "West Bengal",
+    "Domestic": 1.54,
+    "Industrial": 0.14,
+    "Irrigation": 8.38,
+    "Total": 10.06
+  },
+  {
+    "year": 2023,
+    "state": "Andaman and Nicobar Islands",
+    "Domestic": 0.007,
+    "Industrial": 0.001,
+    "Irrigation": 0.0001,
+    "Total": 0.0081
+  },
+  {
+    "year": 2023,
+    "state": "Andhra Pradesh",
+    "Domestic": 0.9,
+    "Industrial": 0.14,
+    "Irrigation": 6.44,
+    "Total": 7.48
+  },
+  {
+    "year": 2023,
+    "state": "Arunachal Pradesh",
+    "Domestic": 0.01,
+    "Industrial": 0.0003,
+    "Irrigation": 0.01,
+    "Total": 0.0203
+  },
+  {
+    "year": 2023,
+    "state": "Assam",
+    "Domestic": 0.55,
+    "Industrial": 0.01,
+    "Irrigation": 2.06,
+    "Total": 2.62
+  },
+  {
+    "year": 2023,
+    "state": "Bihar",
+    "Domestic": 3.26,
+    "Industrial": 0.37,
+    "Irrigation": 10.13,
+    "Total": 13.76
+  },
+  {
+    "year": 2023,
+    "state": "Chandigarh",
+    "Domestic": 0.026,
+    "Industrial": 0.002,
+    "Irrigation": 0.008,
+    "Total": 0.036
+  },
+  {
+    "year": 2023,
+    "state": "Chhattisgarh",
+    "Domestic": 0.75,
+    "Industrial": 0.13,
+    "Irrigation": 4.87,
+    "Total": 5.75
+  },
+  {
+    "year": 2023,
+    "state": "Dadra and Nagar Haveli",
+    "Domestic": 0.01,
+    "Industrial": 0.09,
+    "Irrigation": 0.01,
+    "Total": 0.11
+  },
+  {
+    "year": 2023,
+    "state": "Daman and Diu",
+    "Domestic": 0.0,
+    "Industrial": 0.055,
+    "Irrigation": 0.003,
+    "Total": 0.058
+  },
+  {
+    "year": 2023,
+    "state": "Delhi",
+    "Domestic": 0.26,
+    "Industrial": 0.0007,
+    "Irrigation": 0.08,
+    "Total": 0.3407
+  },
+  {
+    "year": 2023,
+    "state": "Goa",
+    "Domestic": 0.038,
+    "Industrial": 0.005,
+    "Irrigation": 0.025,
+    "Total": 0.068
+  },
+  {
+    "year": 2023,
+    "state": "Gujarat",
+    "Domestic": 0.84,
+    "Industrial": 0.17,
+    "Irrigation": 12.13,
+    "Total": 13.14
+  },
+  {
+    "year": 2023,
+    "state": "Haryana",
+    "Domestic": 0.62,
+    "Industrial": 0.62,
+    "Irrigation": 10.55,
+    "Total": 11.79
+  },
+  {
+    "year": 2023,
+    "state": "Himachal Pradesh",
+    "Domestic": 0.12,
+    "Industrial": 0.05,
+    "Irrigation": 0.18,
+    "Total": 0.35
+  },
+  {
+    "year": 2023,
+    "state": "Jammu and Kashmir",
+    "Domestic": 0.71,
+    "Industrial": 0.05,
+    "Irrigation": 0.32,
+    "Total": 1.08
+  },
+  {
+    "year": 2023,
+    "state": "Jharkhand",
+    "Domestic": 0.65,
+    "Industrial": 0.21,
+    "Irrigation": 0.94,
+    "Total": 1.8
+  },
+  {
+    "year": 2023,
+    "state": "Karnataka",
+    "Domestic": 1.1,
+    "Industrial": 0.13,
+    "Irrigation": 10.09,
+    "Total": 11.32
+  },
+  {
+    "year": 2023,
+    "state": "Kerala",
+    "Domestic": 1.59,
+    "Industrial": 0.01,
+    "Irrigation": 1.12,
+    "Total": 2.72
+  },
+  {
+    "year": 2023,
+    "state": "Ladakh",
+    "Domestic": 0.03,
+    "Industrial": 0.0002,
+    "Irrigation": 0.0,
+    "Total": 0.0302
+  },
+  {
+    "year": 2023,
+    "state": "Lakshadweep",
+    "Domestic": 0.003,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.003
+  },
+  {
+    "year": 2023,
+    "state": "Madhya Pradesh",
+    "Domestic": 1.72,
+    "Industrial": 0.17,
+    "Irrigation": 17.4,
+    "Total": 19.29
+  },
+  {
+    "year": 2023,
+    "state": "Maharashtra",
+    "Domestic": 1.36,
+    "Industrial": 0.03,
+    "Irrigation": 15.28,
+    "Total": 16.67
+  },
+  {
+    "year": 2023,
+    "state": "Manipur",
+    "Domestic": 0.02,
+    "Industrial": 0.0002,
+    "Irrigation": 0.017,
+    "Total": 0.0372
+  },
+  {
+    "year": 2023,
+    "state": "Meghalaya",
+    "Domestic": 0.04,
+    "Industrial": 0.0003,
+    "Irrigation": 0.02,
+    "Total": 0.0603
+  },
+  {
+    "year": 2023,
+    "state": "Mizoram",
+    "Domestic": 0.01,
+    "Industrial": 0.0,
+    "Irrigation": 0.0,
+    "Total": 0.01
+  },
+  {
+    "year": 2023,
+    "state": "Nagaland",
+    "Domestic": 0.02,
+    "Industrial": 0.00002,
+    "Irrigation": 0.00227,
+    "Total": 0.02229
+  },
+  {
+    "year": 2023,
+    "state": "Odisha",
+    "Domestic": 1.25,
+    "Industrial": 0.18,
+    "Irrigation": 5.96,
+    "Total": 7.39
+  },
+  {
+    "year": 2023,
+    "state": "Puducherry",
+    "Domestic": 0.05,
+    "Industrial": 0.01,
+    "Irrigation": 0.07,
+    "Total": 0.13
+  },
+  {
+    "year": 2023,
+    "state": "Punjab",
+    "Domestic": 1.18,
+    "Industrial": 0.24,
+    "Irrigation": 26.39,
+    "Total": 27.81
+  },
+  {
+    "year": 2023,
+    "state": "Rajasthan",
+    "Domestic": 2.31,
+    "Industrial": 0.13,
+    "Irrigation": 14.3,
+    "Total": 16.74
+  },
+  {
+    "year": 2023,
+    "state": "Sikkim",
+    "Domestic": 0.002,
+    "Industrial": 0.001,
+    "Irrigation": 0.009,
+    "Total": 0.012
+  },
+  {
+    "year": 2023,
+    "state": "Tamil Nadu",
+    "Domestic": 0.79,
+    "Industrial": 0.15,
+    "Irrigation": 13.48,
+    "Total": 14.42
+  },
+  {
+    "year": 2023,
+    "state": "Telangana",
+    "Domestic": 0.49,
+    "Industrial": 0.35,
+    "Irrigation": 7.24,
+    "Total": 8.08
+  },
+  {
+    "year": 2023,
+    "state": "Tripura",
+    "Domestic": 0.08,
+    "Industrial": 0.0003,
+    "Irrigation": 0.03,
+    "Total": 0.1103
+  },
+  {
+    "year": 2023,
+    "state": "Uttar Pradesh",
+    "Domestic": 5.04,
+    "Industrial": 0.44,
+    "Irrigation": 40.92,
+    "Total": 46.4
+  },
+  {
+    "year": 2023,
+    "state": "Uttarakhand",
+    "Domestic": 0.17,
+    "Industrial": 0.12,
+    "Irrigation": 0.67,
+    "Total": 0.96
+  },
+  {
+    "year": 2023,
+    "state": "West Bengal",
+    "Domestic": 1.57,
+    "Industrial": 0.15,
+    "Irrigation": 8.99,
+    "Total": 10.71
+  }
+]
